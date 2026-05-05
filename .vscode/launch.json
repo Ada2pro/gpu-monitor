@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SM_gpu}",
+            "name": "Debug GPUMonitor",
+            "target": "GPUMonitor",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug GPUMonitor"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SM_gpu}",
+            "name": "Release GPUMonitor",
+            "target": "GPUMonitor",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release GPUMonitor"
+        }
+    ]
+}

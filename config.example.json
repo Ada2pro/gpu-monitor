@@ -1,0 +1,18 @@
+{
+  "refresh_interval": 30,
+  "servers": [
+    {
+      "name": "GPU Server 1",
+      "host": "192.168.1.100",
+      "port": 22,
+      "username": "root",
+      "auth_method": "key",
+      "key_path": "~/.ssh/id_rsa",
+      "password": null
+    }
+  ],
+  "idle_threshold": {
+    "utilization": 5,
+    "memory_mb": 500
+  }
+}

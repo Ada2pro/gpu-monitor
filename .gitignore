@@ -1,0 +1,33 @@
+.DS_Store
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Xcode
+build/
+.derivedData/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Local editor / assistant state
+.claude/settings.local.json
+
+# Local credentials
+.netrc
+*.p12
+*.mobileprovision
+*.provisionprofile
+
+# Local test binaries
+simple_test
+
+# Local scratch files
+simple_test.swift
+test_menubar.swift
+start_gpu_monitor.sh
+*.backup
