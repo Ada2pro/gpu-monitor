@@ -11,6 +11,20 @@
 - 提供 macOS 桌面 Widget
 - 支持双击 `/Applications/GPUMonitor.app` 启动
 
+## 效果图
+
+### 菜单栏状态
+
+![GPUMonitor menu bar popover](pics/smgpu1.png)
+
+### 桌面 Widget
+
+![GPUMonitor desktop widget](pics/smgpu2.png)
+
+### Widget 近景
+
+![GPUMonitor widget detail](pics/smgpu3.png)
+
 ## 快速开始
 
 1. 安装到 `/Applications` 并启动：
